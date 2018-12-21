@@ -35,20 +35,6 @@ app.get('/', function(req, res){
         //render variables
     });
   });
-
-app.get('/createsurvey', function(req, res){
-    //render EJS
-    res.render('createsurvey.ejs', {
-        //render variables
-    });
-  });
-
-app.get('/takesurvey', function(req, res){
-    //render EJS
-    res.render('takesurvey.ejs', {
-        //render variables
-    });
-  });
 // Main website GET (END)
 
 //Body Parser Middleware

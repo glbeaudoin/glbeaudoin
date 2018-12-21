@@ -1,0 +1,14 @@
+      <form action="/db/dbtest.json" method="post" enctype="multipart/form-data">
+            <label for="name">Q1:</label><br>
+                <input type="radio" name="R1" value="A" class='inline-block'> A
+                <input type="radio" name="R1" value="B" class='inline-block'> B
+                <input type="radio" name="R1" value="C" class='inline-block'> C 
+            <br/>
+            <label for="name">Q2:</label>
+            <br>
+                <input type="radio" name="R2" value="A" class='inline-block'> A
+                <input type="radio" name="R2" value="B" class='inline-block'> B
+                <input type="radio" name="R2" value="C" class='inline-block'> C
+            <br>
+            <input type="submit" value="Submit">
+      </form>
