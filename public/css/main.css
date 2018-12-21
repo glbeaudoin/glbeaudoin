@@ -3,3 +3,57 @@
     display: inline-block;
     margin:auto;
 }
+.menu-toggle{
+    padding-left: 500px;
+}
+
+.modcaptcha{
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sidebarToToggleNavbar{
+    display:block;
+    position: fixed;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width:7px;
+    margin:0px;
+}
+.sidebarToToggleNavbar:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.inline-block{
+    display: inline-block;
+}
+.inputAnswer{
+    width:10em;
+    margin-top:2px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: 1px solid white;
+    color:white;
+}
+.inputQuestion{
+    width:40em;
+    margin-top:2px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: 1px solid white;
+    color:white;
+}
+.remove_field, .add_field_button{
+    width:50px;
+    font-size: 2em;
+}
+.remove_field:hover, .add_field_button:hover{
+    color: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.form{
+    text-align: center;
+}
+.sign-collapse{
+    text-align: center;
+}

@@ -1,4 +1,4 @@
-xvar express = require('express');
+var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 var http = require('http');
@@ -32,6 +32,20 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.get('/', function(req, res){
     //render EJS
     res.render('index.ejs', {
+        //render variables
+    });
+  });
+
+app.get('/createsurvey', function(req, res){
+    //render EJS
+    res.render('createsurvey.ejs', {
+        //render variables
+    });
+  });
+
+app.get('/takesurvey', function(req, res){
+    //render EJS
+    res.render('takesurvey.ejs', {
         //render variables
     });
   });
