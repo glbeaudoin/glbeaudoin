@@ -1,5 +1,5 @@
 {
-  "name": "tingledapp",
+  "name": "glbeaudoin",
   "version": "0.0.1",
   "description": "Survey app",
   "main": "app.js",
@@ -8,12 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glbeaudoin/Tingledapp.git"
+    "url": "git+https://github.com/glbeaudoin/glbeaudoin.git"
   },
   "keywords": [
-    "Survey",
-    "dapp",
-    "Neo"
+    "CV"
   ],
   "dependencies": {
     "body-parser": "*",
@@ -21,10 +19,10 @@
     "express": "*",
     "formidable": "^1.1.1"
   },
-  "author": "TingledappTeam",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/glbeaudoin/Tingledapp/issues"
+    "url": "https://github.com/glbeaudoin/glbeaudoin/issues"
   },
-  "homepage": "https://github.com/glbeaudoin/Tingledapp#readme"
+  "homepage": "https://github.com/glbeaudoin/glbeaudoin#readme"
 }
