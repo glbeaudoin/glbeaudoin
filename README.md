@@ -1,2 +1,2 @@
-# glbeaudoin
-My CV
+# Tingledapp
+Repository for the dapp competion (Neo)
